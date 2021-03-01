@@ -6,5 +6,5 @@ const celebritiesCollection = [
         Celebrity: "Fyodor Nikolayevich Yurchikhin"
     }, {
         Celebrity: "David Kakabadze"
-    },
+    }
 ]

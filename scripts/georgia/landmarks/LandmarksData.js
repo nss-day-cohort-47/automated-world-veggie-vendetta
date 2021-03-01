@@ -7,5 +7,5 @@ const landmarkCollection = [
     },
     {
         landmark: "Monument Ali and Nino"
-    },
+    }
 ]

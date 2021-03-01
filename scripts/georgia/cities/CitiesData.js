@@ -7,5 +7,5 @@ const cityCollection = [
     },
     {
         city: "Kutaisi"
-    },
+    }
 ]
