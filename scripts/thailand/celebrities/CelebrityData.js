@@ -1,4 +1,4 @@
-const celebrityCollection = [
+const celebCollection = [
     {
         celebName: "Thaksin Shinawatra"
     },
@@ -11,4 +11,6 @@ const celebrityCollection = [
     {
         celebName: "Aliza ‘Alice’ Napartivaumnuay"
     }
-]
+];
+
+export const getCeleb = () => celebCollection.slice();
