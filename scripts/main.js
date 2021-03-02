@@ -1,3 +1,4 @@
+
 console.log("main is loaded");
 
 
@@ -8,3 +9,9 @@ CityList();
 CelebrityList();
 LandmarkList();
 console.log(CityList());
+
+console.log("too close for missiles, switching to guns.");
+
+//import { CelebList } from './thailand/celebrities/CelebrityList.js';
+//CelebList();
+
