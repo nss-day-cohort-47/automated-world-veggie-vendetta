@@ -21,8 +21,7 @@ thailandLandmarkList();
 
 import { thailandCityList } from './thailand/cities/CityList.js';
 thailandCityList();
-=======
-//import { CelebList } from './thailand/celebrities/CelebrityList.js';
-//CelebList();
+
+
 
 
