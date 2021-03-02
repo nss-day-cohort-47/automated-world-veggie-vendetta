@@ -1,7 +1,7 @@
-import { getLandmark } from "./CityData.js"
-import { landmarkHTML } from "./LandmarkHTML"
+import { getLandmark } from "./LandmarkData.js"
+import { landmarkHTML } from "./LandmarkHTML.js"
 
-export const landmarkList = () => {
+export const thailandLandmarkList = () => {
     const landmarks = getLandmark();
     const DOMLocation = document.querySelector(".landmarkBox");
 
@@ -15,4 +15,4 @@ export const landmarkList = () => {
 
     DOMLocation.innerHTML = landmarkHTMLRep;
 
-}
+};

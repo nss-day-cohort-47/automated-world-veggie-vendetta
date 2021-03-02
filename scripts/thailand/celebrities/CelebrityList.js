@@ -1,7 +1,7 @@
 import { getCeleb } from "./CelebrityData.js"
 import { celebHTML } from "./CelebrityHTML.js"
 
-export const CelebList = () => {
+export const thailandCelebList = () => {
     const celebs = getCeleb();
     const DOMLocation = document.querySelector(".celebBox");
 

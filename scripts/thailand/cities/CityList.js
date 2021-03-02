@@ -1,7 +1,7 @@
 import { getCity } from "./CityData.js"
-import { cityHTML } from "./CityHTML"
+import { cityHTML } from "./CityHTML.js"
 
-export const CityList = () => {
+export const thailandCityList = () => {
     const cities = getCity();
     const DOMLocation = document.querySelector(".cityBox");
 
