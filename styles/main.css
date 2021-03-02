@@ -1,2 +1,12 @@
 @import "nav.css";
+
 @import "country-info.css";
+
+
+.headerimage {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+  }
+
