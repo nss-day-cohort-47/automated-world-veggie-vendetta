@@ -13,4 +13,4 @@ const landmarkCollection = [
     }
 ];
 
-export const getLandmark = () => landmarkName.slice();
+export const getLandmark = () => landmarkCollection.slice();
