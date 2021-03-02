@@ -10,7 +10,7 @@ import { getCity } from "./CityData.js";
  4. Finally set the dom equal to the variable containing the city html representations
  **/
 
-export const CityList = () => {
+export const AustraliaCityList = () => {
 	// 1. Get the array of City
 	
 	

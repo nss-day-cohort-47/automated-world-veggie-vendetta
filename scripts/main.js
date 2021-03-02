@@ -11,12 +11,12 @@ greeceLandmarksList();
 console.log("main is loaded");
 
 
-import {CityList} from "./australia/cities/CityList.js";
-import {CelebrityList} from "./australia/celebrities/CelebrityList.js";
-import {LandmarkList} from "./australia/landmarks/LandmarkList.js";
-CityList();
-CelebrityList();
-LandmarkList();
+import {AustraliaCityList} from "./australia/cities/CityList.js";
+import {AustraliaCelebrityList} from "./australia/celebrities/CelebrityList.js";
+import {AustraliaLandmarkList} from "./australia/landmarks/LandmarkList.js";
+AustraliaCityList();
+AustraliaCelebrityList();
+AustraliaLandmarkList();
 console.log(CityList());
 
 console.log("too close for missiles, switching to guns.");

@@ -10,7 +10,7 @@ import { getCelebrity } from "./CelebritiesData.js";
  4. Finally set the dom equal to the variable containing the fish html representations
  **/
 
-export const CelebrityList = () => {
+export const AustraliaCelebrityList = () => {
 	// 1. Get the array of Celebrities
 	
 	
