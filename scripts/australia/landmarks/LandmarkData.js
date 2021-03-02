@@ -13,3 +13,7 @@ const landmarkCollection = [
         landmark: "Port Arthur"
     }
 ]
+
+export const getLandmark = () => {
+    return landmarkCollection;
+}
