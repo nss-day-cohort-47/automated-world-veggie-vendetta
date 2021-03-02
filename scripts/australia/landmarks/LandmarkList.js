@@ -10,7 +10,7 @@ import { getLandmark } from "./LandmarkData.js";
  4. Finally set the dom equal to the variable containing the landmark html representations
  **/
 
-export const LandmarkList = () => {
+export const AustraliaLandmarkList = () => {
 	// 1. Get the array 
     const allLandmarks = getLandmark();
 //debugger
