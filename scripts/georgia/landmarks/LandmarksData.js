@@ -10,4 +10,4 @@ const landmarkCollection = [
     }
 ];
 
-export const getLandmark = () => landmarkCollection.slice();
+export const grabLandmark = () => landmarkCollection.slice();

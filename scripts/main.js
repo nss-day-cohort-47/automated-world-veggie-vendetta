@@ -32,3 +32,11 @@ import { thailandCityList } from './thailand/cities/CityList.js';
 thailandCityList();
 
 
+import { georgiaCelebList } from './georgia/celebrities/CelebritiesList.js';
+georgiaCelebList();
+
+import { georgiaLandmarkList } from './georgia/landmarks/LandmarksList.js';
+georgiaLandmarkList();
+
+import { georgiaCityList } from './georgia/cities/CitiesList.js';
+georgiaCityList();
