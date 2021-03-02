@@ -14,3 +14,7 @@ const cityCollection = [
 }
 
 ] 
+
+export const getCity = () => {
+    return cityCollection;
+}
