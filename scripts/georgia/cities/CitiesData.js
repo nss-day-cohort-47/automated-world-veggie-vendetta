@@ -8,4 +8,7 @@ const cityCollection = [
     {
         city: "Kutaisi"
     }
-]
+];
+
+export const grabCity = () => cityCollection.slice();
+
