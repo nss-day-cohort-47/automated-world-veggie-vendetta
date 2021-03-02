@@ -1,0 +1,22 @@
+.country_info {
+    display: flex;
+    justify-content: center;
+}
+
+.country_info h3 {
+    color: #0b1940;
+    font-family: 'Fredoka One', cursive;
+}
+    
+.country_info div {
+        width: 30%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+}
+.country_info ul {
+        list-style-type: none ;
+        padding: 0%;
+}
+    
