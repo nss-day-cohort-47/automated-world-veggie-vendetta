@@ -1,10 +1,10 @@
 console.log("too close for missiles, switching to guns.");
 
-import { CelebList } from './thailand/celebrities/CelebrityList.js';
-CelebList();
+import { thailandCelebList } from './thailand/celebrities/CelebrityList.js';
+thailandCelebList();
 
-import { LandmarkList } from './thailand/landmarks/LandmarkList.js';
-LandmarkList();
+import { thailandLandmarkList } from './thailand/landmarks/LandmarkList.js';
+thailandLandmarkList();
 
-import { CityList } from './thailand/cities/CityList.js';
-CityList();
+import { thailandCityList } from './thailand/cities/CityList.js';
+thailandCityList();

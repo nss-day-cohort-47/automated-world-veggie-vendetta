@@ -1,7 +1,7 @@
 import { getLandmark } from "./LandmarkData.js"
 import { landmarkHTML } from "./LandmarkHTML.js"
 
-export const LandmarkList = () => {
+export const thailandLandmarkList = () => {
     const landmarks = getLandmark();
     const DOMLocation = document.querySelector(".landmarkBox");
 
