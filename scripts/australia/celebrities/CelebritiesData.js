@@ -12,3 +12,7 @@ const celebritiesCollection = [
     celebrity: "Kylie Minogue"
 }
 ]
+
+export const getCelebrity = () => {
+    return celebritiesCollection;
+}
