@@ -12,3 +12,5 @@ const cityCollection = [
         city: "Nafplio"
     }
 ]
+
+export const getCity = () => cityCollection.slice();

@@ -9,3 +9,5 @@ const celebrityCollection = [
         celebrity: "Alexander the Great"
     }
 ]
+
+export const getCelebrity = () => celebrityCollection.slice();
