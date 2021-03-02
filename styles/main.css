@@ -1,1 +1,8 @@
-@import "nav.css"
+@import "nav.css";
+
+.headerimage {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+  }
