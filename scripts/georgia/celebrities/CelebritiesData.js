@@ -7,4 +7,5 @@ const celebritiesCollection = [
     }, {
         Celebrity: "David Kakabadze"
     }
-]
+];
+export const grabCeleb = () => celebCollection.slice();
