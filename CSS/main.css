@@ -1,15 +1,13 @@
-/*  
-*{
-	border:1px black solid;
- }
-*/
+@import "nav.css"
+
+/* 
 body {
 	background-color: antiquewhite;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
-}
+}; */
 
-header {
+/* header {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
@@ -98,14 +96,14 @@ footer {
 	right: 20%;
 	align-items:flex-end;*/
 	
-#landmarkList {
+/* #landmarkList {
 	width:32%;
-}
+} */
 
-#celebrityList {
+/* #celebrityList {
 	width: 32%;
-}
+} */
 
 /*.tipsgoright {
 	justify-content: flex-end;
-}*/
+}*/ 
