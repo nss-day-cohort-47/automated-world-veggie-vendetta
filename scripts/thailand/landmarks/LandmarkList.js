@@ -1,5 +1,5 @@
 import { getLandmark } from "./CityData.js"
-import { landmarkHTML } from "./LandmarkHTML"
+import { landmarkHTML } from "./LandmarkHTML.js"
 
 export const landmarkList = () => {
     const landmarks = getLandmark();

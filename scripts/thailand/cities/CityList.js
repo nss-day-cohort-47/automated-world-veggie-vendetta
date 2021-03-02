@@ -1,5 +1,5 @@
 import { getCity } from "./CityData.js"
-import { cityHTML } from "./CityHTML"
+import { cityHTML } from "./CityHTML.js"
 
 export const CityList = () => {
     const cities = getCity();
