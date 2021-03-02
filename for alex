@@ -1,0 +1,40 @@
+css for navbar 
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.nav {
+  float: left;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #616161;
+}
+html for navbar
+<nav>
+
+                <ul class="navul">
+                    <li class="nav"><a class="active" href="/index.html">Home</a></li>
+                    <li class="nav"><a href="/countries/iceland.html">Iceland</a></li>
+                    <li class="nav"><a href="/countries/india.html">India</a></li>
+                    <li class="nav"><a href="/countries/australia.html">Australia</a></li>
+                    <li class="nav"><a href="/countries/ukraine.html">Ukraine</a></li>
+                </ul>
+
+            </nav>
