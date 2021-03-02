@@ -17,7 +17,7 @@ export const LandmarkList = () => {
 	// 2. Get a reference to the location on the DOM where you want to display the list of landmarks
 	const DOMLocation = document.querySelector("#landmarkList");
 	// 3. Declare a variable to hold on to landmark HTML representations
-	let cityHTMLRepresentations = "";
+	let landmarkHTMLRepresentations = "";
 	// 3. Loop over the array of landmarks and for each one, invoke the Landmark component which returns HTML representation
 
 	for (const oneThingFromTheWorld of allLandmarks) {
