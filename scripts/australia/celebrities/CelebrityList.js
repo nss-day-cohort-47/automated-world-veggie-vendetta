@@ -18,7 +18,7 @@ export const CelebrityList = () => {
 //debugger
 
 	// 2. Get a reference to the location on the DOM where you want to display the list of fish
-	const DOMLocation = document.querySelector("#celebList");
+	const DOMLocation = document.querySelector("#celebrityList");
 	// 3. Declare a variable to hold on to celebrity HTML representations
 	let celebrityHTMLRepresentations = "";
 	// 3. Loop over the array of celebrities and for each one, invoke the Celebrity component which returns HTML representation
