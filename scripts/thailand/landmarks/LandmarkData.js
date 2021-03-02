@@ -11,4 +11,6 @@ const landmarkCollection = [
     {
         landmarkName: "Bridge Over the River Kwai"
     }
-]
+];
+
+export const getLandmark = () => landmarkName.slice();
