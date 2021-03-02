@@ -1,5 +1,5 @@
-import { grabLandmark } from "./LandmarkData.js"
-import { landmarkHTML } from "./LandmarkHTML.js"
+import { grabLandmark } from "./LandmarksData.js"
+import { landmarkHTML } from "./LandmarksHTML.js"
 
 export const georgiaLandmarkList = () => {
     const landmarks = grabLandmark();
