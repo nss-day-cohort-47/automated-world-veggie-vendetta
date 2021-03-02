@@ -12,3 +12,5 @@ const landmarkCollection = [
         landmark: "Palace of the Grand Master of the Knights"
     }
 ]
+
+export const getLandmark = () => landmarkCollection.slice();

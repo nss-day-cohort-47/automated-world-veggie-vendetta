@@ -1,7 +1,7 @@
-export const landmark = (landmarkObj) => {
+export const landmarksHTML = (landmarkObj) => {
     return (
         `
-                <li class="landmark">${landmarkObj.landmark}</li>
+                <li class="landmarksHTML">${landmarkObj.landmark}</li>
         `
     )
 }

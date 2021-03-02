@@ -1,7 +1,7 @@
-export const city = (cityObj) => {
+export const citiesHTML = (cityObj) => {
     return (
         `
-                <li class="city">${cityObj.city}</li>
+                <li class="citiesHTML">${cityObj.city}</li>
         `
     )
 }

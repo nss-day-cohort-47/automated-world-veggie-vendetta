@@ -1,6 +1,17 @@
 import { getLandmark } from "./landmarksData.js";
 
-import { celebritiesHTML } from "./landmarksHTML.js";
+import { landmarksHTML } from "./landmarksHTML.js";
 
-const everyLandmark = getLandmark()
-console.log(landmark);
+
+export const greeceLandmarksList = () => {
+    const everyLandmark = getLandmark();
+    const DOMLocation = document.querySelector(".landmarks");
+
+    let landmarksHTMLRep = "";
+
+    for  (const oneLandmark of everyLandmark) {
+        landmarksHTMLRep += landmarksHTML(oneLandmark);
+    };
+
+    DOMLocation.innerHTML = landmarksHTMLRep;
+};

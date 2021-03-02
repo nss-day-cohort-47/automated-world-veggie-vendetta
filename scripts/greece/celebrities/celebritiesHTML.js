@@ -1,7 +1,8 @@
-export const celebrity = (celebrityObj) => {
+export const celebritiesHTML = (celebrityObj) => {
+    console.log(celebrityObj);
     return (
         `
-                <li class="celebrity">${celebrityObj.celebrity}</li>
+                <li class="celebritiesHTML">${celebrityObj.celebrity}</li>
         `
     )
 }

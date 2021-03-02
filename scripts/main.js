@@ -1,10 +1,9 @@
 console.log("Visit this country!")
 
-import { celebritiesList } from "./greece/celebrities/celebritiesList.js";
-celebritiesList();
+import { greeceCelebritiesList } from "./greece/celebrities/celebritiesList.js";
+import { greeceCitiesList } from "./greece/cities/citiesList.js";
+import { greeceLandmarksList } from "./greece/landmarks/landmarksList.js";
+greeceCelebritiesList();
+greeceCitiesList();
+greeceLandmarksList();
 
-import { citiesList } from "./greece/cities/citiesList.js";
-citiesList();
-
-import { landmarksList } from "./greece/landmarks/landmarksList.js";
-landmarksList();
