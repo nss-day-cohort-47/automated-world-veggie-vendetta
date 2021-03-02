@@ -11,4 +11,7 @@ const cityCollection = [
     {
         cityName: "Satun"
     }
-]
+];
+
+export const getCity = () => cityCollection.slice();
+

@@ -8,4 +8,6 @@ const landmarkCollection = [
     {
         landmark: "Monument Ali and Nino"
     }
-]
+];
+
+export const getLandmark = () => landmarkCollection.slice();
