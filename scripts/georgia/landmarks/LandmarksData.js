@@ -7,7 +7,9 @@ const landmarkCollection = [
     },
     {
         landmark: "Monument Ali and Nino"
-    }
+    },
+    {   landmark: "Narikala Fortress"
+    },
 ];
 
 export const grabLandmark = () => landmarkCollection.slice();
