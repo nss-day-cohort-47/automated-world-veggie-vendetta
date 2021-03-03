@@ -2,11 +2,30 @@
 
 @import "country-info.css";
 
+@import "homeimages.css";
+
+@import "headers.css";
 
 .headerimage {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
+    display: flex;    
     justify-content: center;
+    
   }
 
+footer{
+display: flex;
+justify-content: flex-end;
+position:absolute;
+bottom: 0;
+width: 100%;
+padding-right:0px;
+background-color: rgb(36, 57, 91);
+color: rgb(242, 238, 231);
+}
+.pageimage {
+  width: 100%;
+  max-height: 320px;
+}
+body {margin: 0pc;
+background-color: rgb(242, 238, 231);
+}
